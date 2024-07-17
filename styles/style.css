@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-
+.dancing-script-font {
+    font-family: "Dancing Script", cursive;
+  }
 body{
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -8,6 +11,7 @@ body{
 }
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17) 50%,rgba(119, 119, 119, 0) 100%);   
+    margin-bottom: 6.25rem;
 }
 /* shared starts styles */
 .btn-primary{
@@ -143,6 +147,57 @@ header{
 }
 /* banner section ends here */
 
+/* change section styles starts here */
+.change-section{
+    width: 90%;
+    margin: 0 auto;
+}
+.change-text-container{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.change-text-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.change-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.86rem;
+    font-weight: 400;
+}
+.change-images-containers{
+    display: flex;
+    gap: 2.75rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.images{
+    text-align: center;
+}
+.images img{
+    border-radius: 50%;
+}
+.images h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;  
+}
+.images p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+
+/* change section styles starts here */
+
+
+
 /* responsive starts*/
 @media screen and (max-width: 576px) {
     .links{
@@ -159,5 +214,8 @@ header{
         position: relative;
         margin-left: 170px;
         margin-top: -200px;
+    }
+    .change-images-containers{
+        flex-direction: column;
     }
 }
