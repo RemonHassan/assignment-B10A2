@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
 body{
     margin: 0;
+    font-family: "Inter", sans-serif;
+    background: rgb(0, 0, 0);
+}
+/* shared starts styles */
+.btn-primary{
+    width: 92px;
+    height: 38px; 
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    background: rgb(230, 83, 60);   
+}
+
+/* shared ends styles */
+
+/* navbar styles starts here */
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-weight: 800;    
+}
+.links{
+    width: 465px;
+    height: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+.navbar a{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+}
+/* navbar styles ends here */
+
+/* banner section start here */
+
+
+/* banner section ends here */
+
+/* responsive starts*/
+@media screen and (max-width: 576px) {
+    .links{
+        display: none;
+    }
 }
