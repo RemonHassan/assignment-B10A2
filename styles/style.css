@@ -196,6 +196,40 @@ header{
 
 /* change section styles starts here */
 
+/* run section styles starts here */
+.run-container{
+    width: 90%;
+    height: 23.12rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.run-text-container h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;    
+}
+.run-text-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+}
+.run-image {
+    width: 22.87rem;
+    height: 19.5rem;
+    background-image: url(../images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+/* run section styles ends here */
+
+
+
 
 
 /* responsive starts*/
