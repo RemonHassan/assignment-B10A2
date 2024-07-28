@@ -240,6 +240,7 @@ header{
     margin: 0 auto;
     align-items: center;
     text-align: center;
+    margin-bottom: 50px;
 }
 #meet-our-section-p{
     text-align: center;
@@ -299,6 +300,66 @@ header{
 
 /* meet our team section styles ends here */
 
+/* footer styles starts here */
+footer{
+    background: rgba(255, 255, 255, 0.1);  
+}
+.footer-section{
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3.75rem 11.875rem;
+}
+.fitness h2{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 4.375rem;
+    font-weight: 800;
+}
+.fitness p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.get-start-1 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.get-start-1 h6{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.437rem;
+    font-weight: 400;
+}
+.get-start-2 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.get-start-2 h6{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.437rem;
+    font-weight: 400;
+}
+hr{
+  width: 66.25rem;  
+}
+#all-rights{
+    margin-top: 2.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+}
+/* footer styles ends here */
+
 
 
 /* responsive starts*/
@@ -339,5 +400,10 @@ header{
     }
     .meet-images-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .footer-section{
+        text-align: left;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;    
     }
 }
