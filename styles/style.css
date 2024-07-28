@@ -241,6 +241,10 @@ header{
     align-items: center;
     text-align: center;
 }
+#meet-our-section-p{
+    text-align: center;
+    align-items: center;
+}
 .meet-our-section h2{
     color: rgb(255, 255, 255);
     font-family: Inter;
