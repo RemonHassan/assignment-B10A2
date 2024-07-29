@@ -207,9 +207,7 @@ header{
     border-radius: 18px;
     background: rgb(34, 34, 34);
     padding: 0 3.8rem;
-}
-.run-text-container{
-    
+    margin-bottom: 7rem;
 }
 .run-text-container h3{
     color: rgb(255, 255, 255);
@@ -233,6 +231,81 @@ header{
 }
 
 /* run section styles ends here */
+
+/* bmi section styles starts here */
+.bmi-cal-containers{
+    text-align: center;
+}
+.bmi-cal-containers h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;    
+}
+.bmi-cal-containers p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+.cal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 34, 34);
+    padding: 3.125rem 11.25rem;
+}
+.bmi-chart h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+.table-container{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+}
+.table-container th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.table-container td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.825rem;
+    font-weight: 400;
+}
+
+.cal-your-bmi h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+}
+.cal-your-bmi p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+.height, .weight, .age, .sex{
+    padding: 0.8rem 2.5rem 0.8rem 1.25rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+/* bmi section styles ends here */
 
 /* meet our team section styles starts here */
 .meet-our-section{
@@ -397,6 +470,22 @@ hr{
         width: 287px;
         height: 54px;
         margin-left: 30px;
+    }
+    .cal-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .height, .weight, .age, .sex{
+        padding: 0.8rem 2.5rem 0.8rem 1.25rem;
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .activity{
+        margin-top: 5px;
+        height: 3rem;
+        width: 100%;
+        border-radius: 0.5rem;
+        background: rgba(255, 255, 255, 0.1);
     }
     .meet-images-container{
         grid-template-columns: repeat(1,1fr);
