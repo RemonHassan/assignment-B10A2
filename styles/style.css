@@ -319,6 +319,17 @@ header{
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
+#btn-cal{
+    margin-top: 10px;
+    padding: 1rem 2.8rem;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+}
 /* bmi section styles ends here */
 
 /* meet our team section styles starts here */
