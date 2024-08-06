@@ -501,9 +501,7 @@ hr{
         padding: 10px;
     }
     .height, .weight, .age, .sex{
-        padding: 0.8rem 2.5rem 0.8rem 1.25rem;
-        border-radius: 0.5rem;
-        background: rgba(255, 255, 255, 0.1);
+        padding: 0.8rem 0.8rem;
     }
     .activity{
         margin-top: 5px;
@@ -512,12 +510,18 @@ hr{
         border-radius: 0.5rem;
         background: rgba(255, 255, 255, 0.1);
     }
+    .information{
+        max-width: 5rem;
+    }
     .meet-images-container{
         grid-template-columns: repeat(1,1fr);
-    }
+    }                        
     .footer-section{
         text-align: left;
         grid-template-columns: repeat(1,1fr);
         padding: 10px;    
+    }
+    hr{
+        width: 354px;
     }
 }
